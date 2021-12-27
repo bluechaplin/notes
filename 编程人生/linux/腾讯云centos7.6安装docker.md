@@ -1,31 +1,31 @@
 # 腾讯云centos7.6安装docker
 
-1. 依次执行以下命令，添加 yum 源。
+### 依次执行以下命令，添加 yum 源。
 
-   ```shell
-   yum update
-   
-   yum install epel-release -y
-   
-   yum clean all
-   
-   yum list
-   ```
+```shell
+yum update
 
-2. 执行以下命令，安装 Docker。
+yum install epel-release -y
 
-   ```shell
-   yum install docker-io -y
-   ```
+yum clean all
 
-3. 执行以下命令，运行 Docker。
+yum list
+```
 
-   ```shell
-   systemctl start docker
-   ```
+### 执行以下命令，安装 Docker。
 
-4. 执行以下命令，检查安装结果。
+```shell
+yum install docker-io -y
+```
 
-   ```shell
-   docker info
-   ```
+### 执行以下命令，运行 Docker。
+
+```shell
+systemctl start docker
+```
+
+### 执行以下命令，检查安装结果。
+
+```shell
+docker info
+```

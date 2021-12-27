@@ -1,10 +1,10 @@
 # windows上安装rocket mq
 
-## 一、前言
+## 前言
 
 rocket mq是apache下的一个消息队列
 
-## 二、安装
+## 安装
 
 1. 从官网下载压缩包
 

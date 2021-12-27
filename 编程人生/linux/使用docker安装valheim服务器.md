@@ -1,24 +1,24 @@
 # 使用docker安装vaiheim服务器
 
-## 一、前言
+## 前言
 
 vaiheim是一款多人在线生存游戏
 
-## 二、步骤
+## 步骤
 
-### 1、创建目录
+### 创建目录
 
 ```shell
 mkdir /home/vaiheim-server/config/worlds /home/vaiheim-server/data
 ```
 
-### 2、[可选]复制已有存档
+### [可选]复制已有存档
 
 复制已有存档到`/worlds`文件夹下（如果之前游戏内开过房间，想要迁移到专用服务器上，那么这一步就需要做）
 
 存档一般放在“C:\Users\用户名\AppData\LocalLow\IronGate\Valheim\worlds”，直接用上传到服务器的“home/valheim-server/config/worlds”文件夹下就可以了。
 
-### 3、运行
+### 运行
 
 ```shell
 docker run -d \
@@ -34,7 +34,7 @@ docker run -d \
 lloesche/valheim-server
 ```
 
-## 三、注意事项
+## 注意事项
 
 更多镜像资料请移步
 
