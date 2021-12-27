@@ -39,3 +39,7 @@ lloesche/valheim-server
 更多镜像资料请移步
 
 https://github.com/lloesche/valheim-server-docker#environment-variables
+
+插件
+
+https://valheim.thunderstore.io/?ordering=most-downloaded&page=2
